@@ -1,0 +1,27 @@
+{
+  "name": "provenance-boundary-guard",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Keep host instructions separate from untrusted data across handoffs.",
+  "main": "provenance-boundary-guard.js",
+  "exports": {
+    ".": "./provenance-boundary-guard.js"
+  },
+  "files": [
+    "provenance-boundary-guard.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "provenance-boundary-guard"
+  ],
+  "license": "MIT"
+}
